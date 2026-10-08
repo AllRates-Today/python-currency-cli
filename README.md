@@ -50,3 +50,7 @@ The same tables, with full history as CSV, live in [central-bank-exchange-rates]
 ## License
 
 MIT. Rate data is free to use with attribution to [AllRatesToday](https://allratestoday.com).
+
+## 🔗 Links
+
+- **AI agents:** Claude Code plugin `/plugin marketplace add AllRates-Today/claude-code-plugin` · hosted MCP endpoint `https://allratestoday.com/api/mcp` (keyless)
