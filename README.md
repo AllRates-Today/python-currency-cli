@@ -11,7 +11,7 @@ $ currency table hmrc
 $ currency sources
 ```
 
-Rates come from the keyless [AllRatesToday](https://allratestoday.com/central-bank-rates-api/) open endpoint, which republishes each institution's own table once a day: ECB, Federal Reserve, Bank of England, RBI, PBoC, HMRC, US Treasury and 100 more. Every answer tells you whether the rate was **published**, an **inverse**, or a **cross** via the bank's home currency, so you can cite it correctly on an invoice or tax return.
+Rates come from the keyless [AllRatesToday](https://allratestoday.com/central-bank-rates-api/) open endpoint, which republishes each institution's own table once a day: ECB, Federal Reserve, Bank of England, RBI, PBoC, HMRC, US Treasury and 117 more. Every answer tells you whether the rate was **published**, an **inverse**, or a **cross** via the bank's home currency, so you can cite it correctly on an invoice or tax return.
 
 ## Use this template
 
