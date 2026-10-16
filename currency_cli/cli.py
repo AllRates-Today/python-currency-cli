@@ -30,7 +30,11 @@ def main(argv: list[str] | None = None) -> int:
         if a.cmd == "convert":
             if a.live:
                 r = rates.live_rate(a.source, a.target)
-                rate = r["rates"][0]["rate"] if "rates" in r else r["rate"]
+                # /api/v1/rates returns a list: [{"rate", "source", "target", "time"}]
+                if isinstance(r, list):
+                    rate = r[0]["rate"]
+                else:
+                    rate = r["rates"][0]["rate"] if "rates" in r else r["rate"]
                 out = {"amount": a.amount, "result": round(a.amount * rate, 4), "rate": rate, "method": "live mid-market"}
             else:
                 out = rates.convert(a.amount, a.source, a.target, a.bank)

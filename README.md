@@ -45,11 +45,11 @@ currency convert 100 USD EUR --live
 
 ## Data files instead of an API
 
-The same tables, with full history as CSV, live in [central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates) and are served by jsDelivr.
+The same tables, with full history as CSV, live in [central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates) and can be fetched directly from `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/...`.
 
 ## License
 
-MIT. Rate data is free to use with attribution to [AllRatesToday](https://allratestoday.com).
+MIT (this code). Rates from the keyless AllRatesToday API are free to use with visible attribution to [AllRatesToday](https://allratestoday.com). The open dataset in the [central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates) repo is licensed separately under CC BY-NC 4.0 (non-commercial).
 
 ## 🔗 Links
 
